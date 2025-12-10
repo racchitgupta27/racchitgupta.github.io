@@ -1,0 +1,29 @@
+# -------------------------------------
+# Theme Forty Configuration
+# -------------------------------------
+
+# Theme: Use the remote_theme setting for Theme Forty
+remote_theme: "andrewbanchich/forty-jekyll-theme"
+
+# Site Settings
+title: SvaRacchit
+email: your-email@example.com
+description: "A reflective journey: self-composed thoughts, observations, and travel chronicles."
+baseurl: ""
+url: "https://your-username.github.io" # CHANGE this to your full GitHub Pages URL
+
+# User/Author Information
+author:
+  name: Racchit
+  email: your-email@example.com
+  github: your-username
+  linkedin: your-linkedin-handle # Optional
+  twitter: your-twitter-handle # Optional
+
+# Build Settings (Important for Jekyll and Theme Forty)
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-redirect-from
